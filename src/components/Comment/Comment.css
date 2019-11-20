@@ -1,0 +1,13 @@
+.CommentsApp__CommentsList--comment{
+    display: flex;
+    padding: 15px 10px;
+    border-bottom: #cccccc solid 1px;
+    font-size: 14px;
+}
+
+.CommentsApp__CommentsList--comment-image{
+    width: 75px;
+    height: 75px;
+    background-color: #FE8B00;
+    margin: 0 15px;
+}

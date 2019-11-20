@@ -1,0 +1,61 @@
+.TodoApp__TodoList--todo {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: #cccccc solid 1px;
+}
+
+.TodoApp__TodoList--todo-selected{
+    border-left: #ff0000 solid 2px;
+    border-bottom: #cccccc solid 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.TodoApp__TodoList--todo-selected .TodoApp__TodoList--todo-button{
+    display: none;
+}
+
+.TodoApp__TodoList--todo-text{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.TodoApp__TodoList--todo-text:hover{
+    cursor: pointer;
+}
+
+.TodoApp__TodoList--todo-number{
+    display: inline-block;
+    margin: 0 10px;
+    height: 20px;
+    width: 40px;
+    background-color: #1FCEC3;
+    text-align: center;
+    border-radius: 35%;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.TodoApp__TodoList--todo-button{
+    width: 20%;
+    height: 45px;
+    background-color: #ffffff;
+    border: #f26868 solid 2px;
+    border-radius: 5px;
+    color: #ff0000;
+    font-size: 18px;
+}
+
+.TodoApp__TodoList--todo-button:hover{
+    cursor: pointer;
+    background-color: #f26868;
+    color: #ffffff;
+    transition: 0.3s ease all;
+}

@@ -1,0 +1,6 @@
+.CommentApp__CommentList{
+    width: 99%;
+    height: 70%;
+    overflow-y: scroll;
+    list-style: none;
+}

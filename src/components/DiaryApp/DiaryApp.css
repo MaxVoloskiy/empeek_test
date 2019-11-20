@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.DiaryApp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    height: 100vh;
+}
+
+.DiaryApp__header{
+    background-color: #2C2F3E;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.DiaryApp__header--content{
+    color: #ffffff;
+    margin: 30px;
+    font-weight: lighter;
+}
+
+.DiaryApp__header--content-head{
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.DiaryApp__header--content-comment{
+    font-size: 18px;
+   opacity: 0.3;
+}
+
+.DiaryApp__main{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
