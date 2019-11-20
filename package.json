@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://MaxVoloskiy.github.io/DailyApp",
+  "homepage": "https://MaxVoloskiy.github.io/empeek_test",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --open --hot",
